@@ -7,12 +7,12 @@ public class Dz16 {
         for (String arg : args) {
             try {
                 if (Primes.isPrime(Integer.parseInt(arg))) {
-                    System.out.println(arg+"-prime");
+                    System.out.println(arg + "-prime");
                 } else {
-                    System.out.println(arg+"-not prime");
+                    System.out.println(arg + "-not prime");
                 }
             } catch (NumberFormatException exc) {
-                System.out.println(arg+" NOT A NUMBER");
+                System.out.println(arg + " NOT A NUMBER");
             }
         }
     }
